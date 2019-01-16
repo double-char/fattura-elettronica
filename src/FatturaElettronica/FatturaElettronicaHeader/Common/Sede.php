@@ -18,15 +18,15 @@ class Sede implements XmlSerializableInterface
 {
     use MagicFieldsTrait;
     /** @var string */
-    protected $nazione;
+    public $nazione;
     /** @var string */
-    protected $indirizzo;
+    public $indirizzo;
     /** @var string */
-    protected $cap;
+    public $cap;
     /** @var string */
-    protected $comune;
+    public $comune;
     /** @var string */
-    protected $provincia;
+    public $provincia;
 
     /**
      * Sede constructor.
